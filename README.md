@@ -5,4 +5,13 @@ Para usar tem que se abrir o programa e o mesmo irá criar uma pasta e pedir par
 
 # Informações:
 
-Deixei disponível o arquivo em .exe caso queira ter o aplicativo funcionando localmente sem precisar baixar o codigo e ter que abrir um IDE toda vez, mas caso não queira baixar o .exe. tambem pode usar o código a vontade para compilar você mesmo.
+Deixei disponível o arquivo em .exe caso queira ter o aplicativo funcionando localmente sem precisar compilar o codig. Tambem pode usar o código a vontade para compilar você mesmo.
+
+## Como compilar:
+<b>Antes de fazer isso, se certifique que tambem baixou a pasta assets e seu conteúdo e que tem o ```pyinstaller``` instalado.</b>
+<br>
+<br>
+Para instalar o pyinstaller: ```pip install pyinstaller```
+<br>
+<br>
+Abrir o cmd na pasta onde esta baixado o arquivo ```toPNG.py``` e digitar ```pyinstaller --name="Conversor de imagens" --onefile --icon=".\assets\favicon.ico" toPNG.py```. E assim você terá o executável dentro da pasta ```dist```
